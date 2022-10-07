@@ -1,4 +1,4 @@
-body {
+* {
     background: #E5E5E5;
 }
 
@@ -9,14 +9,12 @@ body {
 ul > li {
     text-align: center;
     display: inline-block;
-    list-style-type: circle;
     padding: 0px 15px 0px 15px;
 }
 
 ul {
     text-align: center;
     padding-inline-start: 0;
-    list-style-type: circle;
 }
 
 #navBreak {
@@ -25,15 +23,31 @@ ul {
 
 h3 {
     text-align: center;
-    width: 200%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.imageflex{
+    display: flex;
+}
+
+img {
+    padding: 5px;
+    align-content: center;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*
 .container {
     display: flex;
     flex-direction: row;
     flex-grow: 2;
     flex-wrap: wrap;
-    height: 200px;
+    height: auto;
     padding: 5px;
     margin: 5px;
 }
@@ -42,3 +56,4 @@ h3 {
     width: 400px;
 
 }
+*/
