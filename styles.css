@@ -1,0 +1,44 @@
+body {
+    background: #E5E5E5;
+}
+
+#logo {
+    text-align: center;
+}
+
+ul > li {
+    text-align: center;
+    display: inline-block;
+    list-style-type: circle;
+    padding: 0px 15px 0px 15px;
+}
+
+ul {
+    text-align: center;
+    padding-inline-start: 0;
+    list-style-type: circle;
+}
+
+#navBreak {
+    width: 80%;
+}
+
+h3 {
+    text-align: center;
+    width: 200%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    flex-wrap: wrap;
+    height: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.containerHead {
+    width: 400px;
+
+}
