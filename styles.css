@@ -29,11 +29,13 @@ h3 {
 
 .imageflex{
     display: flex;
+    justify-content: center;
 }
 
 img {
+    display: flex;
     padding: 5px;
-    align-content: center;
+    align-items: center;
 }
 
 p {
